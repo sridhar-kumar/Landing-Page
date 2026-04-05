@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en" class="transition duration-500">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Prodesk IT</title>
+
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <script>
+    tailwind.config = {
+      darkMode: 'class'
+    }
+  </script>
+
+  <style>
+    html {
+      scroll-behavior: smooth;
+    }
+  </style>
+</head>
+
+<body class="bg-gradient-to-br from-blue-100 via-white to-purple-100 dark:from-gray-900 dark:via-gray-800 dark:to-black text-gray-800 dark:text-white transition duration-500">
+
+<!-- Navbar -->
+<header class="fixed w-full z-50 backdrop-blur-xl bg-white/30 dark:bg-black/30 border-b border-white/20 dark:border-gray-700">
+  <div class="max-w-7xl mx-auto flex justify-between items-center px-6 py-4">
+    
+    <h1 class="text-xl font-bold">Prodesk IT</h1>
+
+    <nav class="hidden md:flex gap-8">
+      <a href="#" class="hover:text-blue-600 dark:hover:text-blue-400 transition">Home</a>
+      <a href="#" class="hover:text-blue-600 dark:hover:text-blue-400 transition">About</a>
+      <a href="#" class="hover:text-blue-600 dark:hover:text-blue-400 transition">Services</a>
+      <a href="#" class="hover:text-blue-600 dark:hover:text-blue-400 transition">Contact</a>
+    </nav>
+
+    <button id="toggleDark" class="bg-black dark:bg-white dark:text-black text-white px-3 py-1 rounded-lg hover:scale-110 transition">
+      🌙
+    </button>
+
+  </div>
+</header>
+
+<!-- Hero -->
+<section class="h-screen flex flex-col justify-center items-center text-center px-6">
+  
+  <h1 class="text-5xl md:text-6xl font-extrabold mb-6">
+    Build <span class="text-blue-600 dark:text-blue-400">Modern</span> Digital Products
+  </h1>
+
+  <p class="text-lg max-w-xl mb-8 text-gray-600 dark:text-gray-300">
+    We design and develop scalable, beautiful and high-performing websites.
+  </p>
+
+  <button class="bg-blue-600 dark:bg-blue-500 text-white px-8 py-3 rounded-full shadow-lg hover:scale-110 transition">
+    Get Started
+  </button>
+
+</section>
+
+<!-- Services -->
+<section class="py-24">
+  <div class="max-w-7xl mx-auto text-center">
+    
+    <h2 class="text-4xl font-bold mb-12">Our Services</h2>
+
+    <div class="grid md:grid-cols-3 gap-10 px-6">
+
+      <div class="bg-white/40 dark:bg-white/10 backdrop-blur-xl p-8 rounded-2xl shadow-xl hover:scale-105 transition">
+        <h3 class="text-xl font-semibold mb-3">Web Development</h3>
+        <p class="text-gray-600 dark:text-gray-300">Modern and scalable applications.</p>
+      </div>
+
+      <div class="bg-white/40 dark:bg-white/10 backdrop-blur-xl p-8 rounded-2xl shadow-xl hover:scale-105 transition">
+        <h3 class="text-xl font-semibold mb-3">SEO Optimization</h3>
+        <p class="text-gray-600 dark:text-gray-300">Improve search rankings.</p>
+      </div>
+
+      <div class="bg-white/40 dark:bg-white/10 backdrop-blur-xl p-8 rounded-2xl shadow-xl hover:scale-105 transition">
+        <h3 class="text-xl font-semibold mb-3">Digital Marketing</h3>
+        <p class="text-gray-600 dark:text-gray-300">Grow your brand online.</p>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- CTA -->
+<section class="py-20 text-center">
+  <h2 class="text-3xl font-bold mb-4">Ready to grow your business?</h2>
+  <p class="mb-6 text-gray-600 dark:text-gray-300">Let’s build something amazing together.</p>
+
+  <button class="bg-purple-600 dark:bg-purple-500 text-white px-8 py-3 rounded-full hover:scale-110 transition shadow-lg">
+    Contact Us
+  </button>
+</section>
+
+<!-- Footer -->
+<footer class="bg-black dark:bg-gray-900 text-white py-8 text-center">
+  <p>© 2026 Prodesk IT | All Rights Reserved</p>
+</footer>
+
+<script>
+  const toggle = document.getElementById("toggleDark");
+
+  toggle.addEventListener("click", () => {
+    document.documentElement.classList.toggle("dark");
+  });
+</script>
+
+</body>
+</html>
