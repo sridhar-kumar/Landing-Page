@@ -9,6 +9,7 @@ The goal of this project is to demonstrate strong fundamentals in:
 - Modern UI Design
 
 🚀 Live Demo
+
 🔗 https://landing-page-sable-ten-66.vercel.app
 
 
