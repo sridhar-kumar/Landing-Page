@@ -20,7 +20,7 @@ The goal of this project is to demonstrate strong fundamentals in:
 - Sticky Navbar
 - Smooth Hover Animations
 - Clean and Structured Code
-- High Lighthouse Score (Performance 90+)
+- High Lighthouse Score 
 
  🛠 Tech Stack
 - HTML5
